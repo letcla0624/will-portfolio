@@ -1,0 +1,143 @@
+[data-theme="dark"] {
+  background-color: #111827;
+  color: var(--bs-white);
+}
+
+[data-theme="dark"] .text-dark {
+  color: var(--bs-white) !important;
+}
+[data-theme="dark"] .text-white,
+[data-theme="dark"] .text-light {
+  color: var(--bs-dark);
+}
+[data-theme="dark"] .text-secondary {
+  color: var(--bs-gray-500) !important;
+}
+
+/* BUTTONS */
+
+[data-theme="dark"] .btn-link {
+  color: var(--bs-white);
+}
+[data-theme="dark"] .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+[data-theme="dark"] .btn-dark {
+  color: #000;
+  background-color: var(--bs-light);
+  border-color: var(--bs-light);
+}
+
+[data-theme="dark"] .btn-outline-dark {
+  color: var(--bs-light);
+  border-color: var(--bs-light);
+}
+[data-theme="dark"] .btn-outline-dark:hover {
+  color: #000;
+  background-color: var(--bs-light);
+  border-color: var(--bs-light);
+}
+
+/* BACKGROUNDS */
+
+[data-theme="dark"] .bg-light {
+  background-color: var(--bs-dark) !important;
+}
+[data-theme="dark"] .bg-dark {
+  background-color: var(--bs-light);
+}
+[data-theme="dark"] .bg-white {
+  background-color: #111827 !important;
+}
+
+/* BORDERS */
+
+[data-theme="dark"] .border,
+[data-theme="dark"] .border-top,
+[data-theme="dark"] .border-end,
+[data-theme="dark"] .border-bottom,
+[data-theme="dark"] .border-start {
+  border-color: var(--bs-dark);
+}
+
+[data-theme="dark"] .border-default,
+[data-theme="dark"] .border-default-top,
+[data-theme="dark"] .border-default-end,
+[data-theme="dark"] .border-default-bottom,
+[data-theme="dark"] .border-default-start {
+  border-color: $default;
+}
+[data-theme="dark"] .border-dark {
+  border-color: var(--bs-light);
+}
+
+/* SHADOWS */
+
+[data-theme="dark"] .shadow {
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
+}
+[data-theme="dark"] .shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.075) !important;
+}
+[data-theme="dark"] .shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.175) !important;
+}
+
+/* CARDS */
+
+[data-theme="dark"] .card {
+  background-color: var(--bs-dark);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+[data-theme="dark"] .drawer-hamburger {
+  .drawer-hamburger-icon {
+    background-color: var(--bs-white) !important;
+    &:before,
+    &:after {
+      background-color: var(--bs-white) !important;
+    }
+  }
+}
+
+[data-theme="dark"] .footer.bg-dark {
+  background-color: var(--bs-dark);
+}
+
+[data-theme="dark"] .navbar-light .nav-link,
+[data-theme="dark"] .hoverbox .text-white {
+  color: var(--bs-light);
+}
+
+[data-theme="dark"] .bg-texture {
+  background: url(@/assets/images/texture-dark.gif) center center repeat;
+}
+
+[data-theme="dark"] #bg-cloud,
+[data-theme="dark"] .mbtool-bg .svg-bottom {
+  fill: #111827;
+}
+[data-theme="dark"] #logo {
+  fill: var(--bs-light);
+}
+
+[data-theme="dark"] .mbtool-bg,
+[data-theme="dark"] .bg-light-yellow {
+  background: linear-gradient(135deg, #111827, #3a3e47) !important;
+}
+
+[data-theme="dark"] .c3-legend-item text {
+  fill: var(--bs-light);
+}
+
+[data-theme="dark"] .c3-tooltip-container {
+  color: var(--bs-dark) !important;
+}
+
+[data-theme="dark"] .next-text {
+  color: var(--bs-gray-700) !important;
+  &:hover {
+    color: var(--bs-light) !important;
+  }
+}

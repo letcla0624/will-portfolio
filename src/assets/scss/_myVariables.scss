@@ -1,0 +1,82 @@
+$default: #ff770f;
+$success: #42b983;
+$light-green: #86a697;
+$light-yellow: #fdeaa4;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+
+$link-color: $default;
+$link-decoration: none;
+// $link-shade-percentage: 0%;
+// $link-hover-color: shift-color($default, $link-shade-percentage);
+
+$navbar-light-color: var(--bs-dark);
+$navbar-light-hover-color: rgba($default, 0.7);
+$navbar-light-active-color: rgba($default, 0.9);
+$navbar-light-brand-color: #2c3e50;
+$navbar-dark-brand-color: #fff;
+
+// $popover-bg: $default;
+// $popover-body-color: var(--bs-light);
+$popover-border-color: #000;
+
+// $nav-link-color: var(--bs-light);
+// $nav-link-hover-color: $light-green;
+// $nav-pills-border-radius: 0;
+// $nav-pills-link-active-bg: $light-green;
+
+// $btn-border-radius: 0;
+// $btn-border-radius-sm: 0;
+// $btn-border-radius-lg: 0;
+
+// $card-border-radius: 0;
+// $card-border-color: transparent;
+// $card-cap-bg: transparent;
+// $card-bg: transparent;
+
+$btn-padding-x: 1.5rem;
+$btn-padding-y: 0.75rem;
+
+// $pagination-color: var(--bs-light);
+// $pagination-bg: var(--bs-dark);
+// $pagination-hover-color: var(--bs-light);
+// $pagination-hover-bg: $light-green;
+// $pagination-focus-color: var(--bs-light);
+// $pagination-focus-bg: var(--bs-dark);
+// $pagination-disabled-bg: var(--bs-dark);
+// $pagination-active-bg: $light-green;
+// $pagination-border-radius: 0;
+
+// $input-btn-padding-y: 0.5rem;
+// $input-btn-focus-box-shadow: none;
+// $input-focus-border-color: var(--bs-dark);
+$input-btn-focus-width: 0;
+// $input-border-radius: 0;
+// $input-placeholder-color: #adb5bd;
+
+// $accordion-border-radius: none;
+// $accordion-button-active-bg: var(--bs-dark);
+// $accordion-button-active-color: #fff;
+// $accordion-button-bg: var(--bs-dark);
+// $accordion-button-color: #fff;
+// $accordion-icon-width: 1rem;
+// $accordion-icon-color: #fff;
+// $accordion-icon-active-color: #fff;
+
+// $form-check-input-border-radius: 0;
+// $form-check-input-checked-bg-color: var(--bs-dark);
+
+// $tooltip-font-size: 12px;
+// $tooltip-bg: $light-green;
+// $tooltip-border-radius: 50px;
+
+// $offcanvas-horizontal-width: 100vw;
+// $offcanvas-border-width: 0;
+
+// $enable-negative-margins: true;
+
+// $modal-content-border-radius: 0;
+
+// $form-floating-padding-y: 0.25rem;
+// $form-check-input-checked-bg-color: $light-green;
+// $form-check-input-checked-border-color: $light-green;
