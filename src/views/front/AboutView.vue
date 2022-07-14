@@ -265,7 +265,7 @@
                 </span>
                 。也參加了第 13 屆 IT 邦幫忙鐵人賽自我挑戰組 －
                 <a
-                  href="https://ithelp.ithome.com.tw/users/20141250/articles?page=3"
+                  href="https://ithelp.ithome.com.tw/users/20141250/ironman/4497"
                   target="_blank"
                   class="text-default fw-bold text-decoration-underline"
                 >
