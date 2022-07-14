@@ -70,8 +70,8 @@ $utilities: map-merge(
           map-merge(
             $theme-colors,
             (
-              "light-green": $light-green,
               "light-yellow": $light-yellow,
+              "gray-300": $gray-300,
             )
           ),
       ),
@@ -88,7 +88,6 @@ $utilities: map-merge(
             $utilities-text-colors,
             (
               "default": $default,
-              "light-green": $light-green,
               "light-yellow": $light-yellow,
               "gray-500": $gray-500,
               "gray-600": $gray-600,

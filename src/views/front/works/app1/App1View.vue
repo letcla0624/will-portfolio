@@ -66,7 +66,7 @@
           </ul>
         </div>
         <div class="text-center">・・・</div>
-        <div class="lh-lg pt-5">
+        <div class="lh-1d8 pt-5">
           <h2>項目簡介</h2>
           <h3 class="mt-5">問題</h3>
           <p>
@@ -254,7 +254,7 @@
     </div>
   </div>
 
-  <div class="container lh-lg py-5" style="margin-bottom: 10rem">
+  <div class="container lh-1d8 py-5" style="margin-bottom: 10rem">
     <!-- Process -->
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 py-5 pt-3">
       <div class="col">

@@ -35,7 +35,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">1. 首頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <p>
                 上一版本中，因新開發了 Line
                 Bot，直接使用Line官方帳號就可以發送您的需求到服務提供者手上，為增加Line官方會員數以配合
@@ -137,7 +137,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">2. 嚴選月嫂頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <p>
                 過往頁面中，公司列出全部上架的月嫂，無法篩選，頂多就是使用排序方式讓客戶瀏覽，用戶需個別點擊進入月嫂內頁查看。
               </p>
@@ -218,7 +218,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">3. 月嫂個人頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -299,7 +299,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">4. 服務費用頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -365,7 +365,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">5. 課程活動頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -444,7 +444,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">6. 部落格</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -506,7 +506,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">7. 常見問題頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <p>所有問題都集中在一起，沒有特別切分出來。</p>
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
@@ -575,7 +575,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">1. 選單列</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <p>
                 過往頁面中，公司列出全部上架的月嫂，無法篩選，頂多就是使用排序方式讓客戶瀏覽，用戶需個別點擊進入月嫂內頁查看。
               </p>
@@ -671,7 +671,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">2. 登入頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -732,7 +732,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">3. Footer 頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -798,7 +798,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">4. 會員中心選單</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -881,7 +881,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">5. 需求表單頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -946,7 +946,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">6. 會員資料頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -1005,7 +1005,7 @@
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <div class="">
             <h2 class="fs-3 mb-4">7. 服務提供者資料頁</h2>
-            <article class="lh-lg">
+            <article class="lh-1d8">
               <div class="my-4">
                 <h3 class="fs-5">痛點：</h3>
                 <ol>
@@ -1069,7 +1069,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-3 mb-4">1. 送來回機票活動</h2>
-          <article class="lh-lg">
+          <article class="lh-1d8">
             <p>
               為獎勵辛苦的服務者，以及吸引更多優秀的服務提供者，訂出做滿服務天數及送來回機票活動。
             </p>
@@ -1178,7 +1178,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-3 mb-4">2. 送購物金活動</h2>
-          <article class="lh-lg">
+          <article class="lh-1d8">
             <p>
               為吸引用戶加入官方 Line 帳號，並和 Line Bot
               互動，推出答題送購物金活動。
@@ -1231,7 +1231,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-3 mb-4">3. 坐月子知識活動</h2>
-          <article class="lh-lg">
+          <article class="lh-1d8">
             <p>
               為讓用戶認知坐月子需有專業知識，在農曆年期間推出答題送購物金活動。
             </p>
@@ -1285,7 +1285,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-3 mb-4">4. 和紫金堂合作</h2>
-          <article class="lh-lg">
+          <article class="lh-1d8">
             <p>推廣紫金堂月子餐料理包商品。</p>
             <p class="text-secondary">上線時間：2018/2/21 - 2020/6/20</p>
             <div class="my-4">
@@ -1337,7 +1337,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-3 mb-4">5. 和泌乳業者合作</h2>
-          <article class="lh-lg">
+          <article class="lh-1d8">
             <h3 class="fs-4">【宣媽媽哺育顧問團隊】</h3>
             <p>
               宣捷生物科技股份有限公司旗下的泌乳團隊，為增加曝光及通路，和愛月嫂合作的方案。
@@ -1400,7 +1400,7 @@
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 class="fs-3 mb-4">6. 與美體業者合作</h2>
-          <article class="lh-lg">
+          <article class="lh-1d8">
             <p>
               產後身材的變形及心理壓力是許多孕媽的夢靨，愛月嫂和美體業者到府服務的異業結盟。
             </p>

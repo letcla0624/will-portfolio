@@ -1,18 +1,16 @@
 <template>
-  <div class="bg-dark text-center position-relative footer">
+  <div class="bg-dark text-center position-relative footer sticky-bottom">
     <svg
-      version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2560 175"
-      xml:space="preserve"
+      preserveAspectRatio="none"
       fill="#232529"
-      class="wave"
+      class="position-absolute w-100 wave"
     >
       <path
         d="M-0.2,175H2560V0c0,0-392.2,136.9-909.9,136.9S881.5,13.6,452.3,13.6C175.7,13.6,0,44.1,0,44.1L-0.2,175z"
       />
     </svg>
-
     <div class="container position-relative">
       <div
         class="row row-cols-1 row-cols-md-2 d-md-flex justify-content-between align-items-center text-light py-4 py-md-5"
@@ -131,7 +129,7 @@ export default {
   mounted() {
     const date = new Date();
     const year = date.getFullYear();
-    this.$refs.copyright.innerText = `© ${year} WILL WU. All rights reserved. Designed By WILL WU. 建議瀏覽器使用電腦版Google Chrome 最新版本以獲得最佳瀏覽體驗。`;
+    this.$refs.copyright.innerText = `© ${year} WILL WU. All rights reserved. Designed By WILL WU. 建議瀏覽器使用電腦版 Google Chrome 最新版本以獲得最佳瀏覽體驗。`;
     this.popover = new bootstrap.Popover(this.$refs.popover, {
       trigger: "hover",
     });
@@ -158,19 +156,8 @@ export default {
     }
   }
 }
-@media (min-width: 767.98px) {
-  .wave {
-    margin-top: -7%;
-  }
-}
-@media (max-width: 767.98px) {
-  .wave {
-    margin-top: -10%;
-  }
-}
-@media (max-width: 575.98px) {
-  .wave {
-    margin-top: -11%;
-  }
+.wave {
+  left: 0;
+  margin-top: -6%;
 }
 </style>

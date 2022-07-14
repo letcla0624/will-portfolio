@@ -15,6 +15,9 @@ ul li,
 .list-none {
   list-style: none;
 }
+a {
+  color: inherit;
+}
 .toolImg {
   min-width: 84px;
   max-width: 33.333%;
@@ -44,16 +47,6 @@ ul li,
       width: 100%;
     }
   }
-}
-// 圖片比例
-.aspect-ratio-1-1 {
-  aspect-ratio: 1 / 1;
-}
-.aspect-ratio-4-3 {
-  aspect-ratio: 4 / 3;
-}
-.aspect-ratio-16-9 {
-  aspect-ratio: 16 / 9;
 }
 // 禁止圖片拖動
 img {

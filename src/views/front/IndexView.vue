@@ -39,6 +39,13 @@
               />
             </p>
           </div>
+          <a
+            href="./Will-resume-cn.pdf"
+            class="btn btn-dark mt-3 outline-default"
+            target="_blank"
+          >
+            <i class="bi bi-file-earmark-pdf-fill me-1"></i>下載履歷
+          </a>
         </div>
         <div class="col-12 col-md-6">
           <img

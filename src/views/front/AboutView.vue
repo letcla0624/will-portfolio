@@ -17,10 +17,10 @@
                 />
               </div>
               <div
-                class="d-flex d-lg-none align-items-center bg-dark text-light p-3"
+                class="d-flex d-lg-none align-items-center bg-dark text-light experience p-3"
               >
                 <p class="display-1 h1 fw-bold mb-0 me-3">6</p>
-                <div class="">
+                <div>
                   <p class="h6 mb-0">Years</p>
                   <p class="h5 lh-base mb-0">網頁設計與開發經驗</p>
                 </div>
@@ -257,55 +257,13 @@
                 <p class="fs-8 fw-bold text-secondary">{{ item.alt }}</p>
               </li>
             </ul>
-            <!-- <ul class="ps-0 mb-0">
-              <li class="toolImg text-center">
-                <img
-                  src="@/assets/images/tool-icon/icon-15.svg"
-                  alt="Bootstrap 5"
-                />
-                <p class="fs-8 fw-bold text-secondary">Bootstrap 5</p>
-              </li>
-              <li class="toolImg text-center">
-                <img
-                  src="@/assets/images/tool-icon/icon-16.svg"
-                  alt="Tailwind CSS"
-                />
-                <p class="fs-8 fw-bold text-secondary">Tailwind CSS</p>
-              </li>
-              <li class="toolImg text-center">
-                <img src="@/assets/images/tool-icon/icon-17.svg" alt="SCSS" />
-                <p class="fs-8 fw-bold text-secondary">SCSS</p>
-              </li>
-              <li class="toolImg text-center">
-                <img src="@/assets/images/tool-icon/icon-18.svg" alt="Vue 3" />
-                <p class="fs-8 fw-bold text-secondary">Vue 3</p>
-              </li>
-              <li class="toolImg text-center">
-                <img
-                  src="@/assets/images/tool-icon/icon-19.svg"
-                  alt="Webpack"
-                />
-                <p class="fs-8 fw-bold text-secondary">Webpack 5</p>
-              </li>
-              <li class="toolImg text-center">
-                <img
-                  src="@/assets/images/tool-icon/icon-21.svg"
-                  alt="Webpack"
-                />
-                <p class="fs-8 fw-bold text-secondary">Gulp 4</p>
-              </li>
-              <li class="toolImg text-center">
-                <img src="@/assets/images/tool-icon/icon-20.svg" alt="Git" />
-                <p class="fs-8 fw-bold text-secondary">Git</p>
-              </li>
-            </ul> -->
             <article class="tracking-widest text-secondary lh-1d8">
               <p>
                 本個人網站使用了
                 <span class="fw-bold text-dark">
-                  Bootstrap 5、SCSS、Vue CLI、Vue 3 及 JSON Server
+                  Bootstrap 5、SCSS、Vue CLI、Vue 3 及 ESLint 和 JSON Server
                 </span>
-                ，並參加了第 13 屆 IT 邦幫忙鐵人賽自我挑戰組 －
+                。也參加了第 13 屆 IT 邦幫忙鐵人賽自我挑戰組 －
                 <a
                   href="https://ithelp.ithome.com.tw/users/20141250/articles?page=3"
                   target="_blank"
@@ -313,7 +271,7 @@
                 >
                   「初見 Tailwind CSS 系列」
                 </a>
-                ，完成鐵人鍊成。
+                ，並完成鐵人鍊成。
               </p>
               <img src="@/assets/images/it-help.png" alt="鐵人鍊成" />
             </article>
