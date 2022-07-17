@@ -49,7 +49,7 @@
             </a>
           </li>
           <li class="nav-item d-lg-none">
-            <div class="btn btn-light" @click="toggleMode">
+            <div class="btn btn-light btn-mode" @click="toggleMode">
               <span class="me-3">Now Theme</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

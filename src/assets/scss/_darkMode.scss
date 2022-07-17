@@ -11,7 +11,7 @@ $normal-dark: #1e293b;
 }
 [data-theme="dark"] .text-white,
 [data-theme="dark"] .text-light {
-  color: $normal-dark !important;
+  color: $normal-dark;
 }
 [data-theme="dark"] .text-secondary {
   color: var(--bs-gray-500) !important;
@@ -110,7 +110,7 @@ $normal-dark: #1e293b;
 }
 
 [data-theme="dark"] .bg-texture {
-  background: url(@/assets/images/texture-dark.gif) center center repeat;
+  background: url(@/assets/images/texture-dark.gif) center center repeat !important;
 }
 
 [data-theme="dark"] #bg-cloud,
@@ -166,4 +166,9 @@ $normal-dark: #1e293b;
 [data-theme="dark"] .experience {
   background-color: $normal-dark !important;
   color: var(--bs-light) !important;
+}
+[data-theme="dark"] .btn-mode {
+  background-color: $normal-dark !important;
+  color: var(--bs-light) !important;
+  border: none;
 }

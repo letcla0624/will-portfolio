@@ -10,7 +10,7 @@
               <VueWriter
                 :array="arr"
                 :iterations="1"
-                :typeSpeed="100"
+                :typeSpeed="70"
                 :start="800"
               />
             </h1>
@@ -18,30 +18,30 @@
               <VueWriter
                 :array="arr2"
                 :iterations="1"
-                :typeSpeed="100"
+                :typeSpeed="70"
                 :start="2500"
                 class="fs-4 fw-normal d-inline"
               />
               <VueWriter
                 :array="arr3"
                 :iterations="1"
-                :typeSpeed="100"
+                :typeSpeed="70"
                 :start="4500"
-                :delay="600"
+                :delay="300"
                 class="fs-4 fw-bold d-inline text-default"
               />
               <VueWriter
                 :array="arr4"
                 :iterations="1"
-                :typeSpeed="100"
-                :start="9500"
+                :typeSpeed="70"
+                :start="8500"
                 class="fs-4 fw-normal d-inline"
               />
             </p>
           </div>
           <a
             href="./Will-resume-cn.pdf"
-            class="btn btn-dark mt-3 outline-default"
+            class="btn btn-dark mt-4 d-none d-md-inline-block"
             target="_blank"
           >
             <i class="bi bi-file-earmark-pdf-fill me-1"></i>下載履歷
@@ -53,6 +53,13 @@
             alt="Hi"
             class="w-100"
           />
+          <a
+            href="./Will-resume-cn.pdf"
+            class="btn btn-dark mt-4 d-block d-md-none"
+            target="_blank"
+          >
+            <i class="bi bi-file-earmark-pdf-fill me-1"></i>下載履歷
+          </a>
         </div>
       </div>
     </section>
@@ -75,26 +82,30 @@
                   class="card-img-top rounded-lg"
                 />
                 <div class="card-body px-0">
-                  <div class="mb-3 pb-3 border-bottom">
-                    <span
-                      class="badge bg-light text-dark p-2 mb-2 me-2"
-                      v-for="skill in item.skills"
-                      :key="skill.id"
-                    >
-                      {{ skill }}
-                    </span>
-                  </div>
-                  <div class="row justify-content-sm-between align-items-end">
-                    <div class="">
-                      <p class="fw-bold mb-1 text-default">{{ item.year }}</p>
-                      <h3 class="card-title text-dark fs-5">
-                        {{ item.title }}
-                      </h3>
+                  <span
+                    class="badge bg-light text-dark p-2 mb-2 me-2"
+                    v-for="skill in item.skills"
+                    :key="skill.id"
+                  >
+                    {{ skill }}
+                  </span>
+                  <div
+                    class="row justify-content-sm-between align-items-end mt-3"
+                  >
+                    <div>
+                      <div class="d-flex align-items-center">
+                        <h3 class="card-title text-dark fs-5">
+                          {{ item.title }}
+                        </h3>
+                        <p class="fs-7 fw-bold ms-2 mb-2 text-default">
+                          {{ item.year }}
+                        </p>
+                      </div>
                       <p class="card-text text-secondary">
                         {{ item.description }}
                       </p>
                     </div>
-                    <div class="col-lg-4 mt-2 ms-auto mt-3">
+                    <div class="col-lg-4 mt-4 ms-auto">
                       <RouterLink
                         :to="`/works/${item.url}`"
                         class="btn btn-outline-dark w-100"
@@ -118,8 +129,12 @@
           學習前端技術後，加入過往設計經驗，自己構思主題所練習的作品。
         </p>
       </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-        <div class="col mb-5" v-for="item in personals" :key="item.id">
+      <div class="row row-cols-1 row-cols-md-2 g-3">
+        <div
+          class="col offset-md-3 mb-5"
+          v-for="item in personals"
+          :key="item.id"
+        >
           <div class="card bg-transparent border-0 mb-6">
             <a :href="`${item.url}`" target="_blank">
               <img
@@ -129,26 +144,30 @@
               />
 
               <div class="card-body px-0">
-                <div class="mb-3 pb-3 border-bottom">
-                  <span
-                    class="badge bg-light text-dark p-2 me-2 mb-2"
-                    v-for="skill in item.skills"
-                    :key="skill.id"
-                  >
-                    {{ skill }}
-                  </span>
-                </div>
-                <div class="row justify-content-sm-between align-items-end">
-                  <div class="">
-                    <p class="fw-bold mb-1 text-default">{{ item.year }}</p>
-                    <h3 class="card-title text-dark fs-5">
-                      {{ item.title }}
-                    </h3>
+                <span
+                  class="badge bg-light text-dark p-2 me-2 mb-2"
+                  v-for="skill in item.skills"
+                  :key="skill.id"
+                >
+                  {{ skill }}
+                </span>
+                <div
+                  class="row justify-content-sm-between align-items-end mt-3"
+                >
+                  <div>
+                    <div class="d-flex align-items-center">
+                      <h3 class="card-title text-dark fs-5">
+                        {{ item.title }}
+                      </h3>
+                      <p class="fs-7 fw-bold mb-2 ms-2 text-default">
+                        {{ item.year }}
+                      </p>
+                    </div>
                     <p class="card-text text-secondary">
                       {{ item.description }}
                     </p>
                   </div>
-                  <div class="col-lg-6 mt-2 ms-auto mt-3">
+                  <div class="col-lg-4 mt-4 ms-auto">
                     <a
                       :href="`${item.url}`"
                       class="btn btn-outline-dark w-100"
@@ -321,7 +340,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .is-typed span.cursor {
   display: none;
 }

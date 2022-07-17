@@ -1076,12 +1076,12 @@
             <p class="text-secondary">上線時間：2018/1/1 - 2019/12/31</p>
             <div class="my-4">
               <h3 class="fs-5">設計概念：</h3>
-              <ul>
+              <ol>
                 <li>
                   主視覺以地區意象作為基底，因亞洲區故將地點使用書法字體呈現做為視覺焦點。
                 </li>
                 <li>首爾的爾字改變為站在入口處歡迎的感覺。</li>
-              </ul>
+              </ol>
             </div>
           </article>
         </div>
@@ -1186,9 +1186,9 @@
             <p class="text-secondary">上線時間：2018/5/20 - 26</p>
             <div class="my-4">
               <h3 class="fs-5">設計概念：</h3>
-              <ul>
+              <ol>
                 <li>因推出 Line 機器人，主視覺使用AI的科技感。</li>
-              </ul>
+              </ol>
             </div>
           </article>
         </div>
@@ -1238,11 +1238,11 @@
             <p class="text-secondary">上線時間：2018/2/15 - 20</p>
             <div class="my-4">
               <h3 class="fs-5">設計概念：</h3>
-              <ul>
+              <ol>
                 <li>
                   因在農曆年節期間推出，主視覺使用紅金配色來搶紅包的概念。
                 </li>
-              </ul>
+              </ol>
             </div>
           </article>
         </div>
@@ -1290,11 +1290,11 @@
             <p class="text-secondary">上線時間：2018/2/21 - 2020/6/20</p>
             <div class="my-4">
               <h3 class="fs-5">設計概念：</h3>
-              <ul>
+              <ol>
                 <li>
                   直接展示料理後成品，運用簡便料理方法和食材，吸引消費者直接購買。
                 </li>
-              </ul>
+              </ol>
             </div>
           </article>
         </div>
@@ -1345,10 +1345,10 @@
             <p class="text-secondary">上線時間：2018/7/1 - 2018/12/31</p>
             <div class="my-4">
               <h3 class="fs-5">設計概念：</h3>
-              <ul>
+              <ol>
                 <li>基底使用女性風格，主視覺即呈現泌乳插畫。</li>
                 <li>用小圖示方式描繪宣媽媽主要的六大泌乳期間服務。</li>
-              </ul>
+              </ol>
             </div>
           </article>
         </div>
@@ -1407,10 +1407,10 @@
             <p class="text-secondary">上線時間：有需求的孕媽都可預訂</p>
             <div class="my-4">
               <h3 class="fs-5">設計概念：</h3>
-              <ul>
+              <ol>
                 <li>色彩以女性為主體，並以花瓣為背景呈現芳香感。</li>
                 <li>使用icon呈現按摩的部位。</li>
-              </ul>
+              </ol>
             </div>
           </article>
         </div>
